@@ -2,7 +2,7 @@
     "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "rgName": "blm-OptimizationEngine-uw2-rg",
+        "rgName": "/subscriptions/ad20085a-3c48-4ca9-ab23-637d1692ccef/resourceGroups/blm-OptimizationEngine-uw2-rg",
         "readerRoleAssignmentGuid": {
             "type": "string",
             "defaultValue": "/subscriptions/ad20085a-3c48-4ca9-ab23-637d1692ccef/resourceGroups/blm-OptimizationEngine-uw2-rg"
