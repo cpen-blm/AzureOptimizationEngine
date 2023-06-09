@@ -2006,19 +2006,13 @@
                             },
                             "kind": "StorageV2",
                             "properties": {
-                                "minimumTlsVersion": "TLS1_2",
                                 "networkAcls": {
-                                    "resourceAccessRules": [],
-                                    "bypass": "Logging, AzureServices",
+                                    "bypass": "AzureServices",
                                     "virtualNetworkRules": [
-                                        {
-                                        "id": "/subscriptions/ad20085a-3c48-4ca9-ab23-637d1692ccef/resourceGroups/blm-vnet-Mgttools-uw2-rg/providers/Microsoft.Network/virtualNetworks/blm-Mgttools-uw2-vnet/subnets/blm-Mgttools-uw2-snet",
-                                        "action": "Allow",
-                                        "state": "Succeeded"
-                                        }
                                     ],
-                                    "ipRules": [],
-                                    "defaultAction": "Deny"
+                                    "ipRules": [
+                                    ],
+                                    "defaultAction": "Allow"
                                 },
                                 "supportsHttpsTrafficOnly": true,
                                 "encryption": {
