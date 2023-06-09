@@ -2,9 +2,7 @@
     "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "rgName": {
-            "type": "string"
-        },
+        "rgName": "blm-OptimizationEngine-uw2-rg",
         "readerRoleAssignmentGuid": {
             "type": "string",
             "defaultValue": "[guid(subscription().subscriptionId, parameters('rgName'))]"
