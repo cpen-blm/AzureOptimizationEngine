@@ -1,0 +1,32 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "rgName": {
+            "value": "blm-OptimizationEngine-uw2-rg"
+        },
+        "storageAccountName": {
+            "value": "ilmsaoptieng"
+        },
+        "automationAccountName": {
+            "value": "blm-optiEngine-uw2-aa"
+        "sqlServerName": {
+            "value": "ilmmzwe3db007"
+        },
+        "logAnalyticsReuse": {
+            "value": true
+        },
+        "logAnalyticsWorkspaceName": {
+            "value": "blm-EnterpriseLogAnalytics-prod-uw2-la"
+        },
+        "logAnalyticsWorkspaceRG": {
+            "value": "blm-logs-prod-rg"
+        },
+        "sqlAdminLogin": {
+            "value": "ilmsqladmin"
+        },
+        "sqlAdminPassword": {
+            "value": "B33rnut$SSSS"
+        }
+    }
+}
